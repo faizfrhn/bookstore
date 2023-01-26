@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="CA101">
+        <author>Alex Within</author>
+        <name>After The Oath</name>
+   </book>
+   <book id="CA102">
+        <author>Bill Howard</author>
+        <name>A Game of Evil</name>
+   </book>
+</catalog>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="FS101">
+        <author>Lisa Bridge</author>
+        <name>Silent Mountain</name>
+   </book>
+   <book id="FS102">
+        <author>전상국</author>
+        <name>사랑의 바다</name>
+   </book>
+   <book id="FS103">
+        <author>Khalil Duke</author>
+        <name>Scar and the Tomb</name>
+   </book>
+   <book id="FS104">
+        <author>Grace Evans</author>
+        <name>Shard and the Elixir</name>
+   </book>
+   <book id="FS105">
+        <author>Eugene Greene</author>
+        <name>Spellbound</name>
+   </book>
+   <book id="FS106">
+        <author>전상국</author>
+        <name>수프왕</name>
+   </book>
+</catalog>

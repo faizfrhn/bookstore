@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="CB101">
+        <author>Roger Stone</author>
+        <name>Butcher In The Night</name>
+   </book>
+   <book id="CB102">
+        <author>Howard Stein</author>
+        <name>Bride In The Dark City</name>
+   </book>
+</catalog>

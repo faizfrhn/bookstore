@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="FT101">
+        <author>裕 子</author>
+        <name>テイル オブ クエスト</name>
+   </book>
+   <book id="FT102">
+        <author>иван пенев</author>
+        <name>тинцидунт ут</name>
+   </book>
+</catalog>

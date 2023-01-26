@@ -1,0 +1,52 @@
+version: "3.7"
+services:
+  app:
+    build:
+      args:
+        user: bookadmin
+        uid: 1000
+      context: ./
+      dockerfile: ./docker-compose/app/Dockerfile
+    image: bookstore
+    container_name: bookstore-php
+    restart: unless-stopped
+    working_dir: /var/www/
+    volumes:
+      - ./:/var/www
+    networks:
+      - bookstore
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:14.1-alpine
+    container_name: bookstore-db
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - '5432:5432'
+    volumes: 
+      - db:/var/lib/postgresql/data
+    networks:
+      - bookstore
+
+  nginx:
+    image: nginx:alpine
+    container_name: bookstore-nginx
+    restart: unless-stopped
+    ports:
+      - 80:80
+    volumes:
+      - ./:/var/www
+      - ./docker-compose/nginx:/etc/nginx/conf.d/
+    networks:
+      - bookstore
+
+volumes:
+  db:
+
+networks:
+  bookstore:
+    driver: bridge
