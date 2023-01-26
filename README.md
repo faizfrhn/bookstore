@@ -3,7 +3,7 @@
 ## About The Project
 Basic program to process XML of books and display the books and authors in a page using PHP for a test.
 
-The XML stored within the project directory is first sorted by the genre of the books and the subdirectories are divided by the beginning letter of the book's name.  
+The XML stored within the project directory is first sorted by the genre of the books and the subdirectories are divided by the first letter of the book's name.  
 
 eg; Book Name = 'Another One Bites The Cookie' directory would be: books->fiction->A->list.xml
 
