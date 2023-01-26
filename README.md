@@ -25,11 +25,11 @@ https://docs.docker.com/get-docker/
    git clone https://github.com/faizfrhn/bookstore.git
    ```
 2. Build the Docker containers
-  ```sh
-  docker-compose build
-  ```
+   ```sh
+   docker-compose build
+   ```
 3. Get the containers up and running
-  ```sh
-  docker-compose up
-  ```
+   ```sh
+   docker-compose up
+   ```
 4. Navigate to localhost on your web browser to test
